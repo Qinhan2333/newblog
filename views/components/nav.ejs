@@ -1,0 +1,22 @@
+
+<div class="nav">
+  <div class="ui grid">
+    <div class="four wide column">
+      <a href="/posts"><h1>简文</h1></a>
+      <p><%= blog.description %></p>
+    </div>
+
+    <div class="eight wide column"></div>
+    <div class="three wide column">
+      <% if (user) { %>
+      <a class="havatar avatar-link" href="/person?author=<%= user._id %>">
+        <img class="avatar" src="/img/<%= user.avatar %>">
+      </a>
+      <% } else { %>
+      <span class="htips">请您登录-></span>
+      <% } %>
+    </div>
+  </div>
+</div>
+
+

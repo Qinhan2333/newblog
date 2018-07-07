@@ -1,0 +1,165 @@
+/* ---------- 全局样式 ---------- */
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.button {
+  background-color: #4fc08d !important;
+  color: #fff !important;
+}
+
+.avatar {
+  border-radius: 3px;
+  width: 48px;
+  height: 48px;
+  float: right;
+}
+.havatar {
+  border-radius: 3px;
+  width: 48px;
+  height: 48px;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.htips{
+float: right;
+margin-top: 22px;
+}
+.auth {
+  text-decoration: none;
+  color: #999;
+}
+/* ---------- nav ---------- */
+
+.nav {
+  margin-bottom: 20px;
+  color: #999;
+  text-align: center;
+}
+
+.nav h1 {
+  color: #4fc08d;
+  display: inline-block;
+  margin: 10px 0;
+}
+
+/* ---------- nav-setting ---------- */
+
+.nav-setting {
+  position: fixed;
+  right: 30px;
+  top: 35px;
+  z-index: 999;
+}
+.nav-setting a {
+  text-decoration: none;
+}
+.nav-setting .ui.dropdown.button {
+  padding: 10px 10px 0 10px;
+  background-color: #fff !important;
+}
+
+.nav-setting .icon.bars {
+  color: #000;
+  font-size: 18px;
+}
+/* ---------- carousel ---------- */
+.pic {
+  margin-bottom: 50px;
+}
+.carousel-inner img {
+  width: 100%;
+}
+.carousel-control.left {
+  background-image:none;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+}
+
+.carousel-control.right {
+  left: auto; right: 0;
+  background-image:none;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+}
+
+
+/* ---------- post-content ---------- */
+.post-content {
+  width: 50%;
+  margin-left: 25%;
+}
+.post-content h3 a {
+  color: #4fc08d !important;
+}
+
+.post-content .tag {
+  font-size: 13px;
+  margin-right: 5px;
+  color: #999;
+}
+.pree {
+  white-space: pre-wrap;
+  line-height: 1px;
+  height: 68px;
+  overflow: hidden;
+}
+.pret{
+  white-space: pre-wrap;
+  border: none;
+  background-color: #fff;
+}
+.post-content .tag.right {
+  float: right;
+  margin-right: 0;
+}
+
+.post-content .tag.right a {
+  color: #999;
+}
+.detail-con{
+  width: 50%;
+  margin-left: 25%;
+}
+.title {
+  width: 100%;
+  color: #4fc08d;
+  font-size: 40px;
+
+  margin-bottom: 20px;
+}
+.auther-detail {
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.auther-pic img {
+  width: 50px;
+  height: 50px;
+}
+.auther-name {
+  margin-left: 3%;
+  margin-top: 1%;
+  color: #999;
+}
+.auth-name {
+  color: #999;
+}
+.cont {
+  width: 100%;
+  margin-bottom: 40px;
+}
+/*--------------person inf----------*/
+.person-content{
+  width: 74%;
+  margin-left: 13%;
+  margin-top: 50px;
+}
+.person-content h3 a {
+  color: #4fc08d !important;
+}
